@@ -1,0 +1,19 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.Jfromtheroc/the-profound-agency",
+  "title": "The Profound Agency",
+  "description": "Search, price and order press placements across 1,600+ publications. Free AI-visibility audits too.",
+  "version": "1.0.0",
+  "websiteUrl": "https://theprofound.agency/mcp/",
+  "repository": {
+    "url": "https://github.com/Jfromtheroc/the-profound-agency",
+    "source": "github",
+    "id": "1402181182"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://theprofound.agency/api/mcp/"
+    }
+  ]
+}
